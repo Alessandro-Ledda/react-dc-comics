@@ -63,3 +63,40 @@ main {
 h1 {
   color: white;
 }
+
+/* SETTAGGIO FOOTER */
+
+footer {
+  background-image: url(./assets/imgs/footer-bg.jpg);
+}
+
+.container-footer {
+  width: 1000px;
+  margin: 0 auto;
+
+}
+
+/* SECTION ONE FOOTER */
+
+.content-link-img {
+  display: flex;
+}
+
+.link-footer {
+  display: flex;
+}
+
+.img-footer img {
+  width: 300px;
+  height: auto;
+}
+
+/* SECTION TWO FOOTER */
+
+.content-sign-follow {
+  display: flex;
+}
+
+.follow-us {
+  display: flex;
+}
