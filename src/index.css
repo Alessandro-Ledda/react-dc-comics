@@ -1,0 +1,48 @@
+/* RESET CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* RESET "a" (LINK) */
+a {
+  text-decoration: none;
+}
+
+/* RESET LISTA */
+ul {
+  list-style: none;
+  gap: 20px;
+}
+
+/* SETTAGGIO HEADER */
+header {
+  background-color: white;
+}
+
+.container-header {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 50px;
+  height: auto;
+  padding: 10px 0;
+}
+
+.navbar {
+  width: calc(100% - 50px);
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+li {
+  font-size: 10px;
+}
