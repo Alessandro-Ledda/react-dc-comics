@@ -1,11 +1,11 @@
 const MainFooter = () => {
     return (
         <footer>
-            <section class="container-footer">
-                <div class="content-link-img">
-                    <div class="wrap">
-                        <div class="link-footer">
-                            <div class="col-one">
+            <section className="container-footer">
+                <div className="content-link-img">
+                    <div className="wrap">
+                        <div className="link-footer">
+                            <div className="col-one">
                                 <h4>DC COMICS</h4>
                                 <ul>
                                     <li><a href="">Characters</a></li>
@@ -22,7 +22,7 @@ const MainFooter = () => {
                                     <li><a href="">Shop DC Collectibles</a></li>
                                 </ul>
                             </div>
-                            <div class="col-two">
+                            <div className="col-two">
                                 <h4>DC</h4>
                                 <ul>
                                     <li><a href="">Term of use</a></li>
@@ -38,7 +38,7 @@ const MainFooter = () => {
                                     <li><a href="">Contact Us</a></li>
                                 </ul>
                             </div>
-                            <div class="col-three">
+                            <div className="col-three">
                                 <h4>SITES</h4>
                                 <ul>
                                     <li><a href="">DC</a></li>
@@ -49,17 +49,17 @@ const MainFooter = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div class="img-footer">
+                        <div className="img-footer">
                             <img src="./src/assets/imgs/dc-logo-bg.png" alt="" />
                         </div>
                     </div>
                 </div>
-                <div class="content-sign-follow">
-                    <div class="wrap">
-                        <div class="sign-up">
-                            <button class="btn"><a href="">SIGN UP NOW!</a></button>
+                <div className="content-sign-follow">
+                    <div className="wrap">
+                        <div className="sign-up">
+                            <button className="btn"><a href="">SIGN-UP NOW!</a></button>
                         </div>
-                        <div class="follow-us">
+                        <div className="follow-us">
                             <h3>FOLLOWS US</h3>
                             <img src="./src/assets/imgs/footer-facebook.png" alt="" />
                             <img src="./src/assets/imgs/footer-twitter.png" alt="" />

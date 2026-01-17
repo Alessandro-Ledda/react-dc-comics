@@ -103,7 +103,7 @@ h1 {
 .content-sign-follow {
   display: flex;
   justify-content: space-between;
-  background-color: navy;
+  background-color: #2f2f2f;
 
 }
 
@@ -115,10 +115,17 @@ h1 {
   padding: 10px 15px;
   border: 3px solid blue;
   margin: 20px 0;
+  background-color: #2f2f2f;
 }
 
+.sign-up .btn a {
+  color: white;
+}
+
+
 .follow-us h3 {
-  font-size: 15px;
+  font-size: 20px;
+  color: blue;
 }
 
 .follow-us img {

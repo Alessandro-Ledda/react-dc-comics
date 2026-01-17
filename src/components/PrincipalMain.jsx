@@ -1,7 +1,7 @@
 const PrincipalMain = () => {
     return (
         <main>
-            <section class="container-main">
+            <section className="container-main">
                 <h1> -- Content goes here -- </h1>
             </section>
         </main>
