@@ -1,5 +1,6 @@
 import MainHeader from "./components/MainHeader"
 import PrincipalMain from "./components/PrincipalMain"
+import FasciaAzzurra from "./components/FasciaAzzurra"
 import MainFooter from "./components/MainFooter"
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
       <MainHeader />
       <PrincipalMain />
+      <FasciaAzzurra />
       <MainFooter />
     </>
   )
