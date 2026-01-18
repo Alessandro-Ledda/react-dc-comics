@@ -2,17 +2,53 @@ const FasciaAzzurra = () => {
     return (
         <section className="fascia-azz">
             <div className="wrap-content">
-                <div class="item">
-                    <img src="./src/assets/imgs/buy-comics-digital-comics.png" alt="DIGITAL COMICS" />
-                    <P>DIGITAL COMICS</P>
+
+                <div className="item">
+                    <div className="img-item">
+                        <img src="./src/assets/imgs/buy-comics-digital-comics.png" alt="" />
+                    </div>
+                    <div className="p-item">
+                        <p>DIGITAL COMICS</p>
+                    </div>
                 </div>
-                <ul>
-                    <li><a className="item-one" href="">DIGITAL COMICS</a></li>
-                    <li><a className="item-two" href="">DC MERCHANDISE</a></li>
-                    <li><a className="item-three" href="">SUBSCRIPTION</a></li>
-                    <li><a className="item-four" href="">COMICS SHOP LOCATOR</a></li>
-                    <li><a className="item-five" href="">DC POWER VISA</a></li>
-                </ul>
+
+                <div className="item">
+                    <div className="img-item">
+                        <img src="./src/assets/imgs/buy-comics-merchandise.png" alt="" />
+                    </div>
+                    <div className="p-item">
+                        <p>DC MERCHANDISE</p>
+                    </div>
+                </div>
+
+                <div className="item">
+                    <div className="img-item">
+                        <img src="./src/assets/imgs/buy-comics-subscriptions.png" alt="" />
+                    </div>
+                    <div className="p-item">
+                        <p>SUBSCRIPTION</p>
+                    </div>
+                </div>
+
+                <div className="item">
+                    <div className="img-item">
+                        <img src="./src/assets/imgs/buy-comics-shop-locator.png" alt="" />
+                    </div>
+                    <div className="p-item">
+                        <p>COMICS SHOP LOCATOR</p>
+                    </div>
+                </div>
+
+                <div className="item">
+                    <div className="img-item">
+                        <img src="./src/assets/imgs/buy-dc-power-visa.svg" alt="" />
+                    </div>
+                    <div className="p-item">
+                        <p>DC POWER VISA</p>
+                    </div>
+                </div>
+
+
             </div>
         </section>
     )

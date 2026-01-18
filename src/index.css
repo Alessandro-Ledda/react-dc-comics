@@ -65,45 +65,41 @@ h1 {
   color: white;
 }
 
-/* SETTAGGIO FOOTER */
-
 /* SETTAGGIO FASCIA AZZURRA */
 
-.item {
-  background-color: blue;
+.wrap-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1000px;
+  margin: 0 auto;
 }
+
+.item {
+  display: flex;
+  padding: 40px 0;
+  align-items: center;
+}
+
+.item img {
+  width: 30px;
+  height: auto;
+}
+
+.p-item {
+  margin-left: 10px;
+  color: white;
+  font-size: 12px;
+}
+
+
+
+/* SETTAGGIO FOOTER */
 
 .fascia-azz {
   background-color: blue;
 }
 
-.wrap-content ul {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-/* settaggio item fascia blu */
-
-.item-one::before {
-  content: url(./assets/imgs/buy-comics-digital-comics.png);
-}
-
-.item-two::before {
-  content: url(./assets/imgs/buy-comics-merchandise.png);
-}
-
-.item-three::before {
-  content: url(./assets/imgs/buy-comics-subscriptions.png);
-}
-
-.item-four::before {
-  content: url(./assets/imgs/buy-comics-shop-locator.png);
-}
-
-.item-five::before {
-  content: url(./assets/imgs/buy-dc-power-visa.svg);
-}
 
 /* SECTION ONE FOOTER */
 
