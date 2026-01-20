@@ -74,6 +74,21 @@ h1 {
 
 .container-comics {
   background-color: #272727;
+
+}
+
+.wrap-comics {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 1000px;
+  justify-content: space-around;
+  padding-bottom: 150px;
+}
+
+.comic {
+  width: 150px;
+  height: 200px;
 }
 
 .comic img {

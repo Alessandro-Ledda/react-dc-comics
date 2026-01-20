@@ -1,7 +1,8 @@
+import HeroImg from "./src/asset/imgs/jumbotron.jpg"
 const Hero = () => {
     return (
         <section className="container-hero">
-            <img src="./src/asset/imgs/jumbotron.jpg" alt="" />
+            <img src={HeroImg} alt="" />
         </section>
     )
 

@@ -3,21 +3,19 @@ import comics from "../../comics"
 
 const ComicList = () => {
     return (
-        comics.map((comic) => {
-            <section class="container-comics">
-                <div class="wrap-content">
-                    <div class="comic" key={comic.id}>
+        <section className="container-comics">
+            <div className="wrap-comics">
+                {comics.map((comic) => (
+                    <div className="comic" key={comic.id}>
                         <img
                             src={comic.thumb}
-                            alt="" />
+                            alt={comic.series} />
                         <p>{comic.series}</p>
                     </div>
-                </div>
-            </section>
-        })
+                ))}
+            </div>
+        </section>
     )
-
-
 }
 
 export default ComicList
