@@ -53,16 +53,18 @@ li {
 /* HERO */
 
 .container-hero {
-  height: 100vh;
   width: 100%;
-  background-size: cover;
-  background-position: center;
+  height: 60vh;
+  overflow: hidden;
+
 }
 
 .container-hero img {
   width: 100%;
-  height: auto;
-  display: block;
+  height: 100%;
+  object-fit: cover;
+  /* equivalente a background-size: cover */
+  object-position: top center;
 }
 
 

@@ -14,6 +14,9 @@ const ComicList = () => {
                     </div>
                 ))}
             </div>
+            <div className="btn-comics">
+                <button>LOAD MORE</button>
+            </div>
         </section>
     )
 }
