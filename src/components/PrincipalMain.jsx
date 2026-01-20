@@ -1,9 +1,11 @@
+import Hero from "./hero"
+import ComicList from "./ComicList"
+
 const PrincipalMain = () => {
     return (
         <main>
-            <section className="container-main">
-                <h1> -- Content goes here -- </h1>
-            </section>
+            <Hero />
+            <ComicList />
         </main>
     )
 }
