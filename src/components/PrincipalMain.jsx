@@ -1,5 +1,5 @@
 import Hero from "./Hero"
-import ComicList from "./ComicList"
+import ComicList from "./comics/ComicList"
 
 const PrincipalMain = () => {
     return (
