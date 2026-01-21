@@ -46,6 +46,12 @@ header {
 
 li {
   font-size: 10px;
+  color: black;
+  cursor: pointer;
+}
+
+.navbar li:hover {
+  border-bottom: 3px solid blue;
 }
 
 /*  SETTAGGIO MAIN  */
@@ -179,6 +185,11 @@ h1 {
   margin: 0 auto;
   justify-content: space-between;
   align-items: center;
+  overflow: hidden;
+}
+
+.wrap.first-footer {
+  height: 300px;
 }
 
 .link-footer {
@@ -195,6 +206,8 @@ h1 {
 .img-footer img {
   width: 400px;
   height: auto;
+  object-fit: cover;
+  object-position: center center;
 }
 
 /* SECTION TWO FOOTER */

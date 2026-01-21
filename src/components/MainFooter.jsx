@@ -3,7 +3,7 @@ const MainFooter = () => {
         <footer>
             <section className="container-footer">
                 <div className="content-link-img">
-                    <div className="wrap">
+                    <div className="wrap first-footer">
                         <div className="link-footer">
                             <div className="col-one">
                                 <h4>DC COMICS</h4>
